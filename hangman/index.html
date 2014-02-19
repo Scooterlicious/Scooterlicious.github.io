@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>David's little secret</title>
+ 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+ 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="hangmanContainer center">
+		<h1>David's little secret</h1>
+
+		<div class="playerStatusLabels">
+
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active">
+						<div class="guessedLettersDiv">Guessed Letters
+							<span class="guessedLetters badge"></span>
+						</div>
+						<div>Incorrect Guesses
+							<span class="incorrectGuessNumberClass badge"></span>
+						</div>
+						<div>Guess Number
+							<span class="guessNumber badge"></span>
+						</div>
+						<div>Score <span class="score badge"></span></div>
+				</li>
+			</ul>
+		</div>
+			<div class="hangmanGraphic">
+				<img src="images/david.gif">
+				<img src="images/diva.gif" class="diva">
+				<img src="images/right-boot.gif" class="rightBoot">
+				<img src="images/left-boot.gif" class="leftBoot">
+	 			<img src="images/heart-boxers.gif" class="heartBoxers">
+				<img src="images/helmet.gif" class="helmet">
+				<img src="images/fire-pants.gif" class="firePants">
+	 			<img src="images/firecoat.gif" class="fireCoat">
+				<img src="images/hose.gif" class="hose">
+			</div>
+
+			<div id='partiallyRevealedAnswer-box'>
+					<div class="partiallyRevealedAnswer"></div>
+			</div>
+
+		</div>
+		<!-- <footer> -->
+				<div class="buttonBar">
+					<button id="newGame" class="btn">New Game</button>
+					<button id="giveHint" class="btn">Hint</button>
+				</div>
+		<!-- </footer>	 -->
+
+	<script language="javascript" type="text/javascript" src="hangman.js"></script>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+</body>
+</html>
