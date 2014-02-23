@@ -1,6 +1,7 @@
 body {
 	font-family: sans-serif;
 	font-size: 1em;
-	letter-spacing: 0.15px;
+	letter-spacing: 0.2px;
+	line-height: 130%;
 	padding: 20px;
 }
