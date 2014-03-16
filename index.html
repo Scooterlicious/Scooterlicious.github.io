@@ -4,41 +4,143 @@
 	<title>Scooterlicious</title>
 	<meta charset="UTF-8">
 	<LINK href="styles/styles.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	<img src="images/Scooter.jpg" > <!-- height="450" width="313" -->
-	<h1>Scott David "Scooter" Fell</h1>
-	<h3>The software engineer who actually <i>likes</i> people ;-)</h3>
-<hr>
-	<h3>Projects</h3>
-	<ul>
-		<li><a href="hangman/index.html" target="SDFhangman">David's Little Secret</a> (hangman interpretation)</li>
-		<li><a href="http://cheap-new-york.herokuapp.com" target="SDFCheapNewYork">Cheap New York</a> (Cheap grub & wifi in my favorite city!)</li>
-		<li><a href="http://cherry-timely.herokuapp.com" target="SDFTimely">Timely</a> Time-based, geo-location based, clickless search </li>
-	</ul>
+	<div id="hi_im_scooter_outer_container">
+		<div id="hi_im_scooter_inner_container">
+			<div id="name">
+				<h1>Hi, I'm Scott David "Scooter" Fell</h1>
+			</div>
+			<div id="tagline">
+				<h2>Full-stack Web Developer</h2>
+				
+				<h4>mmm...that sounds like PANCAKES!</h4>
+				<p>I'm passionate about quality and process.  And brunch.</p>
 
-	<h3>Resume</h3>
-	<ul>
-		<li style="list-style-type: none;">
-			<a href="images/Resume_Screenshot.png" target="SDFResume"><img src="images/Resume_Screenshot_tn.png" alt="Resume"></a>
-		</li>
-	</ul>
+			</div>
+		</div>
+<!-- 		<div id="centering_test_deleteme">CENTERING TEST
+		</div> -->
+
+	</div>
+
+
+	<div id="Scooter_image">
+		<!--
+		<img src="images/Scooter.jpg" height="450" width="313" -->
+	</div>
+
+
+	<div id="projects_container">
+		<h1>Projects</h1>
+		<ul>
+			<li>
+				<div id="project_kts_container" class="project_container">
+					<figure>
+						<a href="http://KnowThySelfie.HerokuApp.com" target="SDF_know_thy_selfie" title="Know Thy Selfie: Take a selfie, then learn what your selfie has in common with selfies from around the world.">
+							<img src="images/screenshot_kts_640.jpg" class="center">
+						</a>
+
 	
-	<h3>Professional Social Media</h3>
-	<ul>
-		<li>
-			<a href="http://www.linkedin.com/in/scottdavidfell">LinkedIn</a>
-		</li>
-	</ul>
+						<figcaption>
+							<a href="http://KnowThySelfie.HerokuApp.com" target="SDF_know_thy_selfie">Know Thy Selfie</a> Take a selfie, then learn what your selfie has in common with selfies from around the world.
 
-	<h3>About me</h3>
-	<ul>
-		<li>Do you like <a href="http://scooterworldwide.blogspot.com/2008/01/white-continent.html" target="SDFScooterWorldwide">Antarctica</a>?  I sure did! 
-		</li>
-		<li>I like to <a href="http://www.newyorkcares.org" target="SDFNYCares">volunteer</a>.  I teach computer skills and provide job search help for the unemployed.</li>
-		<li>Rachel sells delicious <a href="http://operanuts.com" target="SDFRachel">Opera Nuts</a>.  I helped her with her site</li>
-		<li>I helped improve the quality of <a href="http://www.kevinsoffroad.com" target="SDFKOR">Kevin's Offroad</a>
-	</ul>
+						</figcaption>
+					</figure>
+				</div>
+			</li>
+
+			<li>
+				<div id="project_dls_container" class="project_container">
+						
+					<figure>
+						<a href="hangman/index.html" target="SDFhangman" title="David's Little Secret (hangman interpretation) (Chrome Browser Only)" >
+							<img src="images/screenshot_dls_640.jpg" class="center">
+						</a>
+						<figcaption>
+							<a href="hangman/index.html" target="SDFhangman">David's Little Secret</a> (hangman interpretation) (Chrome Browser Only)
+						</figcaption>
+					</figure>
+				</div>
+			</li>
+
+
+			<li>
+				<div id="project_cny_container" class="project_container">
+				<figure>
+					<a href="http://cheap-new-york.herokuapp.com" title="Cheap New York: Cheap grub & wifi in my favorite city!" target="SDFCheapNewYork">
+						<img src="images/screenshot_cny_640.jpg" class="center">
+					</a>
+					<figcaption>
+
+						<a href="http://cheap-new-york.herokuapp.com" target="SDFCheapNewYork">Cheap New York</a> (Cheap grub & wifi in my favorite city!)
+					</figcaption>
+				</figure>
+
+				</div>
+			</li>
+
+
+
+
+
+			<li>
+				<div id="project_timely_container" class="project_container">
+					<figure>
+						<a href="http://cherry-timely.herokuapp.com" target="SDFTimely" title="Timely: Time-based, geo-location based, clickless mobile search">
+							<img src="images/screenshot_timely_640.jpg" class="center">
+						</a>
+
+						<figcaption>
+							<a href="http://cherry-timely.herokuapp.com" target="SDFTimely">Timely</a> Time-based, geo-location based, clickless mobile search 
+
+						</figcaption>
+					</figure>
+
+				</div>
+			</li>
+				
+		</ul>
+	</div>
+
+	<div id="resume_container">
+		<h1>Scooter's Resume</h1>
+				<a href="images/Scooter_Resume_Screenshot.png" target="SDFResume">
+					<img src="images/Scooter_Resume_Screenshot_tn.png" alt="Resume" class="center">
+				</a>
+	</div>
+
+	<div id="professional_social_media_container">	
+		<h1>Contact Me</h1>
+		<h3>...or just stalk me</h3>
+		<ul>
+			<li>
+				<a href="http://www.linkedin.com/in/scottdavidfell"><img src="images/InBug-60px-TM.png" border="5">LinkedIn</a>
+			</li>
+			<li>
+				<a href="http://www.github.com/Scooterlicious"><img src="images/GitHub-Mark-120px-plus.png">GitHub</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="about_container">
+		<h3>About me</h3>
+		<ul>
+			<li>Do you like <a href="http://scooterworldwide.blogspot.com/2008/01/white-continent.html" target="SDFScooterWorldwide">Antarctica</a>?  I sure did! 
+			</li>
+			<li>I like to <a href="http://www.newyorkcares.org" target="SDFNYCares">volunteer</a>.  I teach computer skills and provide job search help for the unemployed.</li>
+			<li>Rachel sells delicious <a href="http://operanuts.com" target="SDFRachel">Opera Nuts</a>.  I helped her with her site</li>
+			<li>I helped improve the quality of <a href="http://www.kevinsoffroad.com" target="SDFKOR">Kevin's Offroad</a>
+		</ul>
+	</div>
+
+
+	<!-- Yahoo dev best practices: put the javascript just before the closing 'body' tag -->
+	<!-- script language="javascript" type="text/javascript" src="scripts/preload.js"></script -->
+	<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script-->
+
 
 </body>
 </html>

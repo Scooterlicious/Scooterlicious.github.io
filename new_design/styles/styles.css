@@ -1,0 +1,74 @@
+.project{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: solid black 1px;
+	float: left;
+}
+#HorizontilContainer{
+	float:left;
+	clear:left;
+}
+
+#NavBar{
+	width: 700px;
+	height: 100px;
+	background-color: green;
+	border: solid black 1px;
+}
+#SideBar{
+	width: 100px;
+	height: 700px;
+	background-color: green;
+	border: solid black 1px;
+}
+
+
+body {
+	font-family: sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.2px;
+	line-height: 130%;
+	padding: 20px;
+}
+
+
+img{
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+div{
+/*	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;	
+*/}
+
+#Scooter_image{
+	border: 1px solid black;
+}
+
+#SDSF_header{
+
+}
+
+#tagline{
+
+}
+
+#projects_container{
+
+}
+
+#resume_container{
+
+}
+
+#professional_social_media_container{
+
+}
+
+#about_container{
+
+}
