@@ -6,12 +6,6 @@ body, html{
 
 body {
 	font-family: 'Gafata', sans-serif;
-/*	font-family: sans-serif;*/
-/*	font-size: 1em;
-	font-weight: 200;
-	letter-spacing: 0.2px;*/
-/*	line-height: 130%;*/
-/*	padding: 20px;*/
 	color: #FFFFFF;
 	background: #03608F; /* #023C59 darker and nice*/
 	margin: 0 auto;
@@ -30,14 +24,12 @@ nav{
 	width: 100%;
 	position: fixed;
 	z-index: 1;
-/*	margin: 0px 0px 20px 0px;*/
-/*	padding: 1em 0em 1em 0em;*/
 }
 nav ul{
 	width: 100%; /* from above */
-	 list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 nav ul li{
 	width: 20%;
@@ -46,14 +38,13 @@ nav ul li{
 nav ul li a{
 	display: block;
 	width: 100%;
-	padding: 1em 0em 1em 0em;
+	padding: .8em 0em .8em 0em;
 }
 nav ul li a:hover{
 	background: #eee;/*#0589CC;*/
 }
 
 div.project_container{
-/*	border: black 1px solid;*/
 	padding: 1em;
 	margin: 1em;
 }
@@ -62,7 +53,6 @@ figcaption{
 	text-align: center;
 }
 ul.nobullet li{
-/*	list-style-type: none;*/
 	margin: -45px;	
 }
 
@@ -91,7 +81,6 @@ img.project {
    border:3px solid #FFF;
    background-color:#000;
    border-radius: 10px;
-   /*margin-left: -2em;*/ /* Potential fix for li taking up space */
 }
 
 div{
@@ -130,8 +119,6 @@ h4{
 	position: relative; /* THIS LINE moves this box over to the LEFT padding in the outer div...  Which is confusing because the very-well-written tutorial that I'm reading says this is part of making the inner div center vertically...  Puzzled */
 }
 
-
-
 #tagline{
 
 }
@@ -155,7 +142,14 @@ div#about_container{
 }
 
 div#contact_me_container{
-	width: 100%;
+	width: 80%;
 	padding: 0em 0em 7em 0em;
+	margin-left:auto;
+	margin-right:auto;
 }
 
+footer{
+	padding: .25em 0em .25em 0em;
+		background-color: #046FA5;
+
+}
