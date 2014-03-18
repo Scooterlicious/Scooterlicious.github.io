@@ -13,6 +13,7 @@ body {
 
 a{
 	text-align: center;
+	text-decoration:none;
 	font-size: 20px;
 	color: #aaa;
 }
@@ -41,10 +42,15 @@ nav ul li a{
 	padding: .8em 0em .8em 0em;
 }
 nav ul li a:hover{
-	background: #eee;/*#0589CC;*/
+	background: #bbb;/*#0589CC;*/
 }
 nav ul li a:link {
 	text-decoration:none;
+	letter-spacing:0.9px;
+	color: #eee;
+}
+nav ul li a:visited {
+	color: #eee;
 }
 
 div.project_container{
@@ -150,9 +156,23 @@ div#contact_me_container{
 	margin-left:auto;
 	margin-right:auto;
 }
+div#contact_me_container ul{
+	list-style: none;
+	line-height: 3em;
+}
+
+div#contact_me_container ul li a:link {
+	text-decoration:none;
+	letter-spacing:.7px;
+	padding: 1em;
+}
+div#contact_me_container ul li img {
+	margin: 0em 0em 0em 0em;
+	padding: 0em 1em 0em 0em;
+}
+
 
 footer{
 	padding: .25em 0em .25em 0em;
-		background-color: #046FA5;
-
+	background-color: #046FA5;
 }
