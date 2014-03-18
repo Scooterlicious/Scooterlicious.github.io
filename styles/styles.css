@@ -43,6 +43,9 @@ nav ul li a{
 nav ul li a:hover{
 	background: #eee;/*#0589CC;*/
 }
+nav ul li a:link {
+	text-decoration:none;
+}
 
 div.project_container{
 	padding: 1em;
