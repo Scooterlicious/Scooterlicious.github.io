@@ -172,8 +172,12 @@ div#contact_me_container ul li img {
 	padding: 0em 1em 0em 0em;
 }
 
-
+footer h4{
+	padding: 0px;
+	margin: 0px;
+}
 footer{
-	padding: .25em 0em .25em 0em;
+	padding: 18px 0px 18px 0px;
 	background-color: #046FA5;
+	box-shadow: 0px -10px 10px #035B87;
 }
