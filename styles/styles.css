@@ -62,8 +62,8 @@ div.project_container{
 figcaption{
 	text-align: center;
 }
-ul.nobullet li{
-	margin: -45px;	
+ul.nobullet{
+	list-style-type: none;
 }
 
 div#project_timely_container{
