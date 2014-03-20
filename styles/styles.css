@@ -64,6 +64,10 @@ figcaption{
 }
 ul.nobullet{
 	list-style-type: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
 }
 
 div#project_timely_container{
@@ -155,6 +159,7 @@ div#about_container{
 div#contact_me_container{
 	width: 80%;
 	padding: 0em 0em 7em 0em;
+	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
 }
