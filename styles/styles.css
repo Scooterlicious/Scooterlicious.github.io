@@ -158,7 +158,7 @@ div#about_container{
 
 div#contact_me_container{
 	width: 80%;
-	padding: 0em 0em 7em 0em;
+	padding: 0em 0em 3em 0em;
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
@@ -182,6 +182,11 @@ footer h4{
 	padding: 0px;
 	margin: 0px;
 }
+
+.img_vert_center{
+	vertical-align: middle;
+}
+
 footer{
 	padding: 18px 0px 18px 0px;
 	background-color: #046FA5;
