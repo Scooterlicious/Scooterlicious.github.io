@@ -91,10 +91,7 @@ figcaption {
 }
 
 img.project {
-   padding:3px;
-   border:3px solid #FFF;
-   background-color:#000;
-   border-radius: 10px;
+	box-shadow: 0px 0px 25px #023047;
 }
 
 div{
@@ -216,8 +213,6 @@ footer{
 
 .delay6{
   -webkit-animation-delay: 1s;
-/*  -webkit-animation-duration: 3s;*/
-
 }
 
 
