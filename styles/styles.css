@@ -189,6 +189,35 @@ footer h4{
 
 footer{
 	padding: 18px 0px 18px 0px;
+	color: #eee;
 	background-color: #046FA5;
 	box-shadow: 0px -10px 10px #035B87;
 }
+
+.delay1{
+  -webkit-animation-delay: .1s;
+}
+
+.delay2{
+  -webkit-animation-delay: .2s;
+}
+
+.delay3{
+  -webkit-animation-delay: .3s;
+}
+
+.delay4{
+  -webkit-animation-delay: .4s;
+}
+
+.delay5{
+  -webkit-animation-delay: .5s;
+}
+
+.delay6{
+  -webkit-animation-delay: 1s;
+/*  -webkit-animation-duration: 3s;*/
+
+}
+
+
