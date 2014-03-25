@@ -193,30 +193,37 @@ footer{
 
 .delay1{
   -webkit-animation-delay: .3s;
+  	 -moz-animation-delay: .3s;
 }
 
 .delay2{
   -webkit-animation-delay: .5s;
+     -moz-animation-delay: .5s;
 }
 
 .delay3{
   -webkit-animation-delay: .6s;
+     -moz-animation-delay: .6s;
 }
 
 .delay4{
   -webkit-animation-delay: .66s;
+     -moz-animation-delay: .66s;
 }
 
 .delay5{
   -webkit-animation-delay: .7s;
+     -moz-animation-delay: .7s;
 }
 
 .delay6{
   -webkit-animation-delay: 1s;
+     -moz-animation-delay: 1s;
 }
 
 .delayLong{
   -webkit-animation-delay: 10s;
+     -moz-animation-delay: 10s;
 }
 
 
