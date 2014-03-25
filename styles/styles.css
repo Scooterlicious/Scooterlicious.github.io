@@ -192,27 +192,31 @@ footer{
 }
 
 .delay1{
-  -webkit-animation-delay: .1s;
-}
-
-.delay2{
-  -webkit-animation-delay: .2s;
-}
-
-.delay3{
   -webkit-animation-delay: .3s;
 }
 
+.delay2{
+  -webkit-animation-delay: .5s;
+}
+
+.delay3{
+  -webkit-animation-delay: .6s;
+}
+
 .delay4{
-  -webkit-animation-delay: .4s;
+  -webkit-animation-delay: .66s;
 }
 
 .delay5{
-  -webkit-animation-delay: .5s;
+  -webkit-animation-delay: .7s;
 }
 
 .delay6{
   -webkit-animation-delay: 1s;
+}
+
+.delayLong{
+  -webkit-animation-delay: 10s;
 }
 
 
