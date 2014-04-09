@@ -1,3 +1,7 @@
+// By Scott David "Scooter" Fell, 2014
+// Javascript file for 'hangman' assignment at General Assembly, 2014
+// I tried to take a more creative approach
+
 function Game(){
 
 	this.wordArray = ["Rapahel", "Michelangelo", "Leonardo da Vinci", "El Greco", "Burial of the Count of Orgaz", "Giotto", "Botticelli", "David", "Mona Lisa", "The Last Supper", "Pieta", "The Sistine Chapel Ceiling", "The School of Athens", "The Birth of Venus"];
@@ -149,8 +153,8 @@ Game.prototype.setHangmanState = function(inHangmanStateNumber) {
 			$(".helmet").hide();
 		break;
 		case 5:
-			$(".heartBoxers").hide();
 			$(".diva").show();
+			$(".heartBoxers").hide();
 		break;
 		default:
 			console.log("Code is broken! 3409jf");
@@ -257,5 +261,3 @@ window.onload = function() {
 	$(document).keyup(function(event){myGame.handleGuessFromKeypress(event);});
 	$('#giveHint').on('click',function(event){myGame.handleGiveHint();})
 }
-
-

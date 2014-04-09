@@ -128,7 +128,7 @@ h4{
 	top: 35%;
 	margin-left: auto;
 	margin-right: auto;	
-	position: relative; /* THIS LINE moves this box over to the LEFT padding in the outer div...  Which is confusing because the very-well-written tutorial that I'm reading says this is part of making the inner div center vertically...  Puzzled */
+	position: relative;
 }
 
 #tagline{
@@ -142,7 +142,6 @@ div#projects_container{
 
 div#resume_container{
 	width: 100%;
-/*	height: 80%;*/
 	padding: 1em 0em 17em 0em;
 }
 
@@ -202,23 +201,23 @@ footer{
 }
 
 .delay3{
-  -webkit-animation-delay: .6s;
-     -moz-animation-delay: .6s;
-}
-
-.delay4{
-  -webkit-animation-delay: .66s;
-     -moz-animation-delay: .66s;
-}
-
-.delay5{
   -webkit-animation-delay: .7s;
      -moz-animation-delay: .7s;
 }
 
+.delay4{
+  -webkit-animation-delay: .9s;
+     -moz-animation-delay: .9s;
+}
+
+.delay5{
+  -webkit-animation-delay: 1.1s;
+     -moz-animation-delay: 1.1s;
+}
+
 .delay6{
-  -webkit-animation-delay: 1s;
-     -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1.3s;
+     -moz-animation-delay: 1.3s;
 }
 
 .delayLong{
