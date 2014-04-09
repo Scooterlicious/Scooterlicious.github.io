@@ -99,11 +99,9 @@ Game.prototype.guessLetter = function(inLetter){
 	//Only update the string if the guessed letter was actually in the word
 	if(this.letterInAr(inLetter, this.word)){
 		this.updatePartiallyRevealedWord();
-		console.log("Letter is in String");
 	}
 	else{
 		this.incorrectGuesses++;
-		console.log("Letter NOT in string");
 	}
 }
 
@@ -208,7 +206,6 @@ Game.prototype.handleGiveHint = function(){
 
 Game.prototype.handleGuessFromKeypress = function(event){
 	var letterPressed = String.fromCharCode(event.keyCode);
-	console.log("letterPressed: " + letterPressed + "... keyCode: "+event.keyCode);
 	var enter_keycode = 13;
 
 	// Check to make sure it's an alpha entry from the keyboard
