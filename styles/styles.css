@@ -1,3 +1,8 @@
+/*
+================
+ Generic Stuff
+================
+*/
 body, html{
 	height: 100%;
 	margin: 0px;
@@ -5,80 +10,42 @@ body, html{
 }
 
 body {
-	font-family: 'Gafata', sans-serif;
-	color: #FFFFFF;
 	background: #03608F; /* #023C59 darker and nice*/
+	color: #FFFFFF;
+	font-family: 'Gafata', sans-serif;
 	margin: 0 auto;
 }
 
-a{
-	text-align: center;
-	text-decoration:none;
-	font-size: 20px;
+a {
 	color: #aaa;
-}
-a:visited {color:#fff;}
-
-nav{
-	top: 0;
-	background-color: #046FA5;
-	width: 100%;
-	position: fixed;
-	z-index: 1;
-	box-shadow: 0px 10px 10px #035B87;
-}
-nav ul{
-	width: 100%; /* from above */
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-nav ul li{
-	width: 20%;
-	float: left;
-}
-nav ul li a{
-	display: block;
-	width: 100%;
-	padding: .8em 0em .8em 0em;
-}
-nav ul li a:hover{
-	background: #bbb;/*#0589CC;*/
-}
-nav ul li a:link {
-	text-decoration:none;
-	letter-spacing:0.9px;
-	color: #eee;
-}
-nav ul li a:visited {
-	color: #eee;
-}
-
-div.project_container{
-	padding: 1em;
-	margin: 1em;
-}
-
-figcaption{
+	font-size: 20px;
+ 	text-decoration: none;
 	text-align: center;
 }
+a:visited {
+	color: #fff;
+}
+
+h1{
+	font-size: 3em;
+	padding: 1em 0em 0em 0em;
+	text-align: center;
+}
+h2{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+h4{
+	text-align: center;
+}
+
 ul.nobullet{
 	list-style-type: none;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
 }
-
-div#project_timely_container{
-}
-div#project_kts_container{
-}
-div#project_dls_container{
-}
-div#project_cny_container{
-}
-
 
 img.center {
   display: block;
@@ -86,110 +53,154 @@ img.center {
   margin-right: auto;
 }
 
-figcaption {
-	padding-top: .75em;
+.img_vert_center{
+	vertical-align: middle;
 }
 
 img.project {
 	box-shadow: 0px 0px 25px #023047;
 }
 
-div{
+footer h4{
+	margin: 0px;
+	padding: 0px;
 }
 
-#Scooter_image{
-	visibility:hidden;
+footer{
+	background-color: #046FA5;
+	box-shadow: 0px -10px 10px #035B87;
+	color: #eee;
+	padding: 18px 0px 18px 0px;
 }
 
-h1{
-	padding: 1em 0em 0em 0em;
-	font-size: 3em;
-	text-align: center;
-}
-h2{
-	font-size: 2em;
-	text-align: center;
-	line-height: 1em;
-}
-h4{
+.scooter_image{
+	padding: 7em 0em 4em 0em;
+} 
+
+figcaption{
+	padding-top: .75em;
 	text-align: center;
 }
 
-#hi_im_scooter_outer_container{
-	text-align: center;
-	height: 100%;
+
+
+/*
+================
+ Navigation bar
+================
+*/
+nav{
+	box-shadow: 0px 10px 10px #035B87;
+	background-color: #046FA5;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%; /* from above */
+}
+nav ul li{
+	float: left;
+	width: 20%;
+}
+nav ul li a{
 	display: block;
-	position:relative;
+	padding: .8em 0em .8em 0em;
+	width: 100%;
+}
+nav ul li a:hover{
+	background: #bbb;/*#0589CC;*/
+}
+nav ul li a:link {
+	color: #eee;
+	letter-spacing:0.9px;
+	text-decoration:none;
+}
+nav ul li a:visited {
+	color: #eee;
+}
+
+
+
+/*
+============
+ Containers 
+============ 
+*/
+#hi_im_scooter_outer_container{
+	display: block;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+	text-align: center;
 }
 #hi_im_scooter_inner_container{
-	width: 90%;
-	top: 35%;
 	margin-left: auto;
 	margin-right: auto;	
 	position: relative;
+	top: 35%;
+	width: 90%;
 }
 
-#tagline{
-
-}
-
+/* Outer container */
 div#projects_container{
-	width: 100%;
 	padding: 1em 0em 17em 0em;
+	width: 100%;
+}
+
+/* Can use a class for this one b/c it's non-unique */
+div.project_container{
+	padding: 1em;
+	margin: 1em;
 }
 
 div#resume_container{
-	width: 100%;
 	padding: 1em 0em 17em 0em;
+	width: 100%;
 }
 
 div#about_container{
+	margin-left: auto;
+	margin-right: auto;
 	padding: 1em 0em 17em 0em;
 	width: 80%;
-	margin-left:auto;
-	margin-right:auto;
 }
 
 div#contact_me_container{
-	width: 80%;
-	padding: 0em 0em 3em 0em;
-	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
+	padding: 0em 0em 3em 0em;
+	text-align: center;
+	width: 80%;
 }
+
 div#contact_me_container ul{
-	list-style: none;
 	line-height: 3em;
+	list-style: none;
 }
 
 div#contact_me_container ul li a:link {
-	text-decoration:none;
 	letter-spacing:.7px;
 	padding: 1em;
+	text-decoration:none;
 }
+
 div#contact_me_container ul li img {
 	margin: 0em 0em 0em 0em;
 	padding: 0em 1em 0em 0em;
 }
 
-footer h4{
-	padding: 0px;
-	margin: 0px;
-}
 
-.img_vert_center{
-	vertical-align: middle;
-}
-
-footer{
-	padding: 18px 0px 18px 0px;
-	color: #eee;
-	background-color: #046FA5;
-	box-shadow: 0px -10px 10px #035B87;
-}
-
+/*
+==================
+ Animation Delays
+==================
+*/
 .delay1{
   -webkit-animation-delay: .3s;
   	 -moz-animation-delay: .3s;
@@ -224,5 +235,3 @@ footer{
   -webkit-animation-delay: 10s;
      -moz-animation-delay: 10s;
 }
-
-

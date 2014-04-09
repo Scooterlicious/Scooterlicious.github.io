@@ -208,8 +208,19 @@
 				<a>
 			</li>
 		</ul>
-		<img src="images/ScooterTranspBkgWht.png" width="150" class="center" style="padding: 7em 0em 4em 0em;">
+		<img src="images/ScooterTranspBkgWht.png" width="150" class="center scooter_image">
 	</div>
+
+    <!--  
+		To decrease latency and enhance user experience, I make an image request 
+		from each of the servers hosting my apps.  This wakes up the servers, so 
+		by the time a user on my portfolio page clicks through to one of my 
+		apps, it's ready immediately.  If I DON'T do this, the user is delayed 
+		several seconds, which is annoying.
+	-->     
+	<img src="http://cherry-timely.herokuapp.com/assets/shootingstar.png" style="display:none">     
+	<img src="http://knowthyselfie.herokuapp.com/assets/plus.png" style="display:none">
+	<img src="http://cheap-new-york.herokuapp.com/assets/image.png" style="display:none">
 
 	<footer>
 		<h4 class="animated fadeInUp delayLong">...and I really wasn't joking about the brunch suggestions! :-)</h4>
