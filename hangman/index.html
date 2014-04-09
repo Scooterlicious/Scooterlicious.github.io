@@ -10,47 +10,43 @@
 <body>
 	<div class="hangmanContainer center">
 		<h1>David's little secret</h1>
-
 		<div class="playerStatusLabels">
-
 			<ul class="nav nav-pills nav-stacked">
 				<li class="active">
-						<div class="guessedLettersDiv">Guessed Letters
-							<span class="guessedLetters badge"></span>
-						</div>
-						<div>Incorrect Guesses
-							<span class="incorrectGuessNumberClass badge"></span>
-						</div>
-						<div>Guess Number
-							<span class="guessNumber badge"></span>
-						</div>
-						<div>Score <span class="score badge"></span></div>
+					<div class="guessedLettersDiv">Guessed Letters
+						<span class="guessedLetters badge"></span>
+					</div>
+					<div>Incorrect Guesses
+						<span class="incorrectGuessNumberClass badge"></span>
+					</div>
+					<div>Guess Number
+						<span class="guessNumber badge"></span>
+					</div>
+					<div>Score 
+						<span class="score badge"></span>
+					</div>
 				</li>
 			</ul>
 		</div>
-			<div class="hangmanGraphic">
-				<img src="images/david.gif" alt="Michangelo's David">
-				<img src="images/diva.gif" alt="Diva Dress" class="diva">
-				<img src="images/right-boot.gif" alt="Right fireman's boot" class="rightBoot">
-				<img src="images/left-boot.gif" alt="Left fireman's boot" class="leftBoot">
-	 			<img src="images/heart-boxers.gif" alt="Heart Boxers" class="heartBoxers">
-				<img src="images/helmet.gif" alt="Fireman's Helmet" class="helmet">
-				<img src="images/fire-pants.gif" alt="Fireman's pants" class="firePants">
-	 			<img src="images/firecoat.gif" alt="Fireman's coat" class="fireCoat">
-				<img src="images/hose.gif" alt="Fireman's hose" class="hose">
-			</div>
-
-			<div id='partiallyRevealedAnswer-box'>
-					<div class="partiallyRevealedAnswer"></div>
-			</div>
-
+		<div class="hangmanGraphic">
+			<img src="images/david.gif" alt="Michangelo's David">
+			<img src="images/diva.gif" alt="Diva Dress" class="diva">
+			<img src="images/right-boot.gif" alt="Right fireman's boot" class="rightBoot">
+			<img src="images/left-boot.gif" alt="Left fireman's boot" class="leftBoot">
+ 			<img src="images/heart-boxers.gif" alt="Heart Boxers" class="heartBoxers">
+			<img src="images/helmet.gif" alt="Fireman's Helmet" class="helmet">
+			<img src="images/fire-pants.gif" alt="Fireman's pants" class="firePants">
+ 			<img src="images/firecoat.gif" alt="Fireman's coat" class="fireCoat">
+			<img src="images/hose.gif" alt="Fireman's hose" class="hose">
 		</div>
-		<!-- <footer> -->
-				<div class="buttonBar">
-					<button id="newGame" class="btn">New Game</button>
-					<button id="giveHint" class="btn">Hint</button>
-				</div>
-		<!-- </footer>	 -->
+		<div id="partiallyRevealedAnswer-box">
+			<div class="partiallyRevealedAnswer"></div>
+		</div>
+	</div> <!-- closes div.hangmanContainer -->
+	<div class="buttonBar">
+		<button id="newGame" class="btn">New Game</button>
+		<button id="giveHint" class="btn">Hint</button>
+	</div>
 
 	<!-- Best Practice: Load JS files at END of the HTML (Shows user HTML content before JS loads, the DOM is already loaded, etc) -->
 	<script src="hangman.js"></script>

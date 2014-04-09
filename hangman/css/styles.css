@@ -1,90 +1,45 @@
-
-
+/*
+===========================
+ The basics
+===========================
+*/
 html{
 	background-color: #aaa;
 	height: 20px;
 }
-.hangmanContainer {
+footer{
 	background-color: #aaa;
-}
-.hangmanGraphic {
-	padding: 10px;
-	position:relative;
-	display:inline;
-}
-.diva{
-	position:absolute;
-	bottom: -3.5em;
-	right: 2.3em;
-	z-index: 1;
-}
-.rightBoot {
-	position:absolute;
-	bottom: -11.1em;
-	right: 0.3em;
-}
-.leftBoot {
-	position:absolute;
-	bottom: -11.1em;
-	right: 5.6em;
-}
-.heartBoxers{
-	position:absolute;
-	bottom: -2em;
-	right: 3.8em;
-}
-.helmet{
-	position:absolute;
-	bottom: 11em;
-	right: 4.7em;
-}
-.firePants{
-	position:absolute;
-	bottom: -9.7em;
-	right: 1.4em;
-}
-.fireCoat{
-	position:absolute;
-	bottom: -.5em;
-	right: 1.6em;
-}
-.hose{
-	position:absolute;
-	bottom: 0.6em;
-	right: 6em;
-}
-.playerStatusLabels {
-	font-size: 1.4em;
-	padding: 10px 0px 10px 0px;
+	font-family: "Helvetica neue", Helvetica; 
+	margin: 0px;
 }
 
 .partiallyRevealedAnswer {
 	font-size: 40px;
-	text-align: center;
 	letter-spacing: 20px;
 	padding: 20px;
+	text-align: center;
 }
+#partiallyRevealedAnswer-box{
+	clear: both;
+	display: block;
+}
+
 .revealedAnswer{
-	width: 100%;
+	font-size: 7em;
+	left: 0%;
+	letter-spacing: 20px;
 	position: absolute;
 	text-align: center;
-	left: 0%;
-	top: 50%;
-	font-size: 7em;
-	letter-spacing: 20px;
 	text-shadow: 0px 0px 20px #fff;
+	top: 50%;
+	width: 100%;
+	z-index: 2;
 }
-
-#partiallyRevealedAnswer-box{
-	display: block;
-	clear: both;
-}
-
 
 .buttonBar{
 	position: absolute;
-	text-align: center;
 	padding: 10px 0px 20px 10px;
+	text-align: center;
 	width: 100%;
 }
 
@@ -92,12 +47,62 @@ html{
 	text-align: center;
 }
 
-body footer{
-	margin: 0px;
-	font-family: "Helvetica neue", Helvetica; 
+
+/*
+===========================
+ Graphic element positions
+===========================
+*/
+.hangmanContainer {
 	background-color: #aaa;
 }
-
-
-
-
+.hangmanGraphic {
+	display:inline;
+	padding: 10px;
+	position:relative;
+}
+.diva{
+	bottom: -3.5em;
+	position: absolute;
+	right: 2.3em;
+	z-index: 1;
+}
+.rightBoot {
+	bottom: -11.1em;
+	position: absolute;
+	right: 0.3em;
+}
+.leftBoot {
+	bottom: -11.1em;
+	position: absolute;
+	right: 5.6em;
+}
+.heartBoxers{
+	bottom: -2em;
+	position: absolute;
+	right: 3.8em;
+}
+.helmet{
+	bottom: 11em;
+	position: absolute;
+	right: 4.7em;
+}
+.firePants{
+	bottom: -9.7em;
+	position: absolute;
+	right: 1.4em;
+}
+.fireCoat{
+	bottom: -.5em;
+	position: absolute;
+	right: 1.6em;
+}
+.hose{
+	bottom: 0.6em;
+	position: absolute;
+	right: 6em;
+}
+.playerStatusLabels {
+	font-size: 1.4em;
+	padding: 10px 0px 10px 0px;
+}
