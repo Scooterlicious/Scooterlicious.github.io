@@ -1,10 +1,9 @@
-readme.md
 
 David's Little Secret
 ===============
 David's Little Secret is a hangman game with a twist.
 
-![Global View](http://scooterlicious.github.io/images/DLS_Screenshot_vertical.png)
+![Global View](http://scooterlicious.github.io/hangman/images/DLS_Screenshot_vertical.png)
 
 The mission was simple: "Create a hangman game"
 
