@@ -29,6 +29,10 @@ h1 {
 	clear: both;
 }
 
+.flashRed {
+	background-color: #f00!important;
+}
+
 .revealedAnswer{
 	font-size: 7em;
 	left: 0%;

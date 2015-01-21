@@ -88,7 +88,16 @@ Game.prototype.updatePartiallyRevealedWord = function(){
 
 Game.prototype.guessLetter = function(inLetter){
 	if(this.letterInAr(inLetter, this.guessLettersAr)){
-		alert("I believe you already guessed that letter.");
+		//alert("I believe you already guessed that letter.");
+		console.log("Already guessed letter");
+		$('.guessedLetters').addClass("animated shake flashRed");
+		setTimeout(
+			function(){
+				$('.guessedLetters').removeClass("animated shake flashRed");
+			}, 
+			2000);
+		// sweetAlert("You've already guessed that letter!");
+
 		return;
 	}
 
