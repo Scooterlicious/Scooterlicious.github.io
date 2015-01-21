@@ -10,9 +10,6 @@ Hangman is a great problem because it's well-understood--the requirements are cl
 
 I came up with the concept for David's Little Secret after having a flashback to a fun refrigerator set a friend had long ago with clothes for famous art (Birth of Venus, Michangelo's David).
 
-David's Little Secret is implemented in HTML, CSS, JavaScript, and uses jQuery and jQueryUI.
-
-
 Technologies
 ------------
 

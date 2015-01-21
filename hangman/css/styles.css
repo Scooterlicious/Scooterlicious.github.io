@@ -13,15 +13,20 @@ footer{
 	margin: 0px;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 .partiallyRevealedAnswer {
 	font-size: 40px;
 	letter-spacing: 20px;
 	padding: 20px;
 	text-align: center;
+	text-indent: 10px;
 }
 #partiallyRevealedAnswer-box{
-	clear: both;
 	display: block;
+	clear: both;
 }
 
 .revealedAnswer{
@@ -37,14 +42,16 @@ footer{
 }
 
 .buttonBar{
+/*	border: 2px solid black;*/
+	padding: 10px 0px 20px 0px;
 	position: absolute;
-	padding: 10px 0px 20px 10px;
 	text-align: center;
 	width: 100%;
 }
 
 .center {
 	text-align: center;
+	/*text-indent: 10px;*/
 }
 
 

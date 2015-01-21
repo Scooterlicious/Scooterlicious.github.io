@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>David's little secret</title>
-	<!-- By Scott David "Scooter" Fell, 2014 -->
+	<title>David's Little Secret</title>
+	<!-- By Scott David "Scooter" Fell, 2015 -->
  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+ 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
  	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -40,12 +41,15 @@
 			<img src="images/hose.gif" alt="Fireman's hose" class="hose">
 		</div>
 		<div id="partiallyRevealedAnswer-box">
-			<div class="partiallyRevealedAnswer"></div>
+			<div class="samp partiallyRevealedAnswer"></div>
 		</div>
-	</div> <!-- closes div.hangmanContainer -->
+	</div> <!-- closes div.hangmanGraphic -->
 	<div class="buttonBar">
-		<button id="newGame" class="btn">New Game</button>
-		<button id="giveHint" class="btn">Hint</button>
+<!--		<p>This is my clever text		</p> -->
+		<!-- <span class="button_wrapper"> -->
+			<button id="newGame" class="btn">New Game</button>
+			<button id="giveHint" class="btn">Hint</button>
+		<!-- </div> -->
 	</div>
 
 	<!-- Best Practice: Load JS files at END of the HTML (Shows user HTML content before JS loads, the DOM is already loaded, etc) -->

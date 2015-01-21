@@ -168,7 +168,7 @@ Game.prototype.updateDisplay = function(){
 
 	this.setHangmanState(this.incorrectGuesses);
 
-	$('.guessedLetters').text(this.guessLettersAr.join(" ") );//.replace(/,/g, "" ));
+	$('.guessedLetters').text(this.guessLettersAr.sort().join(" ") );
 	$('.partiallyRevealedAnswer').text(this.partiallyRevealedWord);
 	$('.guessNumber').text(this.guessNumber);
 	$('.incorrectGuessNumberClass').text(this.generateIncorrectGuessesString());
