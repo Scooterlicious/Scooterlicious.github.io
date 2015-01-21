@@ -1,10 +1,9 @@
 // By Scott David "Scooter" Fell, 2014
-// Javascript file for 'hangman' assignment at General Assembly, 2014
-// I tried to take a more creative approach
+// Javascript file for 'hangman' 2015
 
 function Game(){
 
-	this.wordArray = ["Rapahel", "Michelangelo", "Leonardo da Vinci", "El Greco", "Burial of the Count of Orgaz", "Giotto", "Botticelli", "David", "Mona Lisa", "The Last Supper", "Pieta", "The Sistine Chapel Ceiling", "The School of Athens", "The Birth of Venus"];
+	this.wordArray = ["Rapahel", "Michelangelo", "Ferdinand Magellan", "Francisco Pizarro", "Nicolaus Copernicus", "Tycho Brahe", "Leonardo da Vinci", "El Greco", "Burial of the Count of Orgaz", "Giotto", "Botticelli", "David", "Mona Lisa", "The Last Supper", "Pieta", "The Sistine Chapel Ceiling", "The School of Athens by Raphael", "The Last Supper by Leonardo da Vinci", "The Birth of Venus by Sandro Botticelli", "The Creation of Adam by Michelangelo", "The Last Judgment by Hieronymus Bosch", "The Tower of Babel by Pieter Bruegel the Elder", "La Primavera by Sandro Botticelli"];
 
 	this.word = ""; // Current word to guess
 	this.guessNumber = 0;
