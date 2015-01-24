@@ -18,3 +18,4 @@ The client-side is built using HTML, CSS, JavaScript, with animations in jQuery.
 [David's Little Secret]
 
 [David's Little Secret]:http://Scooterlicious.github.io/hangman/index.html
+

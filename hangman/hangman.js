@@ -214,8 +214,7 @@ Game.prototype.handleGiveHint = function(){
 
 Game.prototype.handleGuessFromKeypress = function(event){
 	var letterPressed = String.fromCharCode(event.keyCode);
-	var enter_keycode = 13;
-
+	
 	// Check to make sure it's an alpha entry from the keyboard
 	if (event.keyCode < 65 || event.keyCode > 90)
 	{
@@ -249,7 +248,7 @@ Game.prototype.handleGuessFromKeypress = function(event){
 		this.newGame();
 	}
 	else if(this.hasWon()){
-		alert("Nice Job!");
+		sweetAlert("Nice Job!");
 		this.score++;
 		this.newGame();
 	}
