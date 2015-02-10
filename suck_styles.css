@@ -1,0 +1,28 @@
+	* {/*margin: 0; padding: 0;*/}
+		div#wrapper {width: 5120px;}
+		div {
+/*			border-top: 1px solid cyan;
+			border-bottom: 1px solid blue;
+*/			float: left;
+			padding: 0;
+			margin: 0;
+			height: 256px;
+		}
+		img {
+			/*float: left;*/
+			/*height: 200px;*/
+/*    		display: inline-block;
+			margin-left: auto;
+    		margin-right: auto;*/
+			/*border: 1px solid red;*/
+
+		}
+		img {
+			/*border-top: 1px solid red;
+			border-bottom: 1px solid green;
+			*/margin: 0;
+			padding: 0;
+			float: left;
+			/*width: 200px;*/
+			/*height: auto;*/
+		}

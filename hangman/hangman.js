@@ -25,14 +25,13 @@ function Game(){
 // four times, the returned string will read "XXXX__"
 Game.prototype.generateIncorrectGuessesString= function(){
 	var string = "";
+	var guessesRemaining = this.MAX_GUESSES-this.incorrectGuesses;
 
-	for(var i = 0; i < this.incorrectGuesses;++i){
-		string += "X ";
-	}
+	// An 'x' for each incorrect guess
+	string = Array(this.incorrectGuesses + 1).join('X');
 
-	for(; i < this.MAX_GUESSES;++i){
-		string += "_ ";
-	}
+	// Pad the rest with underscores
+	string += Array(guessesRemaining+1).join(' _');
 
 	return string;
 }
@@ -55,7 +54,7 @@ Game.prototype.newGame = function(){
 
 // Given an array of letters, tests to see if the given
 // letter is contained in the array.  Returns true if so
-Game.prototype.letterInAr = function(inLetter, inArray){
+Game.prototype.leXXXXXtterInAr = function(inLetter, inArray){
 	for(var i = 0; i< inArray.length; ++i){
 		if (inArray[i] === inLetter)
 			return true;
