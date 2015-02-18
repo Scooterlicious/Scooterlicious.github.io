@@ -55,10 +55,9 @@ Game.prototype.newGame = function(){
 // Given an array of letters, tests to see if the given
 // letter is contained in the array.  Returns true if so
 Game.prototype.letterInAr = function(inLetter, inArray){
-	for(var i = 0; i< inArray.length; ++i){
-		if (inArray[i] === inLetter)
-			return true;
-	}
+	if (inArray.indexOf(inLetter) >= 0)
+		return true;
+
 	return false;
 }
 
