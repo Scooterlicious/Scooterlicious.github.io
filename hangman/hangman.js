@@ -13,7 +13,7 @@ function Game(){
 	this.partiallyRevealedWord = "";
 	this.score = 0;
 
-	this.MAX_GUESSES = 5;
+	this.MAX_GUESSES = 6;
 	this.DEBUG_MESSAGES = false;
 }
 
